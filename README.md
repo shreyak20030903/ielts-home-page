@@ -1,70 +1,53 @@
-# Getting Started with Create React App
+# IELTS Homepage
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, responsive homepage for a fictional IELTS Institute built with **React JS** and **Tailwind CSS**. Features smooth scroll, animations, feature cards, courses, testimonials, and CTA sections.
 
-## Available Scripts
+## 🌐 Live Demo
+[https://ielts-home-page-c0s78y7qg-shreya-kushwahas-projects-2578b1d9.vercel.app](https://ielts-home-page-c0s78y7qg-shreya-kushwahas-projects-2578b1d9.vercel.app)
 
-In the project directory, you can run:
+## 🛠️ Technologies
+- React JS, Tailwind CSS, React Icons, AOS (Animate on Scroll), Vercel, Git & GitHub
 
-### `npm start`
+## 📂 Structure
+src/
+├─ components/ (Hero, AboutUs, Features, Courses, Testimonials, CTA, Navbar)
+├─ App.jsx
+├─ index.js
+└─ index.css
+public/
+├─ 1.jpg (About Us)
+├─ 2.jpg (Hero)
+└─ 3.jpg (Testimonials)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+markdown
+Copy code
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## ⚡ Features
+- Modern, responsive design
+- Smooth scroll navbar
+- Hero section with banner
+- Feature cards & Courses section
+- Testimonials with images
+- Call-To-Action section
+- Subtle animations and hover effects
+- Professional blue & white color palette
 
-### `npm test`
+## 🚀 Setup
+```bash
+git clone https://github.com/shreyak20030903/ielts-home-page.git
+cd ielts-home-page
+npm install
+npm start
+Open http://localhost:3000 to view.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+🎨 Design Choices
+Gradient backgrounds & professional colors
 
-### `npm run build`
+Scroll animations and hover effects
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Functional, reusable React components
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Navbar links scroll to sections
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+✨ Author
+Shreya Kushwaha – B.Tech Computer Science Student
